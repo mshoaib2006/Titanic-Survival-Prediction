@@ -118,11 +118,12 @@ with st.expander("About this app"):
     based on their characteristics using a machine learning model.
     
     **Features:**
-    - Streamlit-only (no FastAPI required)
+    - Streamlit
     - Detailed passenger information collection
     - Probability-based predictions
     - Local model loading for deployment on Streamlit Cloud
     """)
+
 
 
 
