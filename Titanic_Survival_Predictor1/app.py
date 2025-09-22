@@ -10,7 +10,7 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-MODEL_PATH = "/Titanic_Survival_Predictor1/model.pkl"
+MODEL_PATH = "Titanic_Survival_Predictor1/model.pkl"
 if not os.path.exists(MODEL_PATH):
     st.error(f"Model file not found at: {MODEL_PATH}")
     st.stop()
@@ -123,5 +123,6 @@ with st.expander("About this app"):
     - Probability-based predictions
     - Local model loading for deployment on Streamlit Cloud
     """)
+
 
 
